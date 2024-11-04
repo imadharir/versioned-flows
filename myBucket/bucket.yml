@@ -1,8 +1,8 @@
 flows:
   9cf9684b-5c68-4598-b6e6-3cb49fbff9fe: {ver: 3, file: myFlow.snapshot, comments: Added
       Output Port, author: anonymous, created: 1730735426462, flowName: myFlow, flowDesc: ''}
-  d85b62e8-c1bf-4a3d-89b7-ec6c60344f4a: {ver: 1, file: Profiles_Storage.snapshot,
-    comments: '', author: anonymous, created: 1730735489702, flowName: Profiles Storage,
+  d85b62e8-c1bf-4a3d-89b7-ec6c60344f4a: {ver: 2, file: Profiles_Storage.snapshot,
+    comments: '', author: anonymous, created: 1730735611249, flowName: Profiles Storage,
     flowDesc: Profiles Storage to Postgres Container}
 layoutVer: 1
 bucketId: d15077e8-ea37-4089-b484-2090131e26bb

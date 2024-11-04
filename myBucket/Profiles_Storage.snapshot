@@ -400,8 +400,8 @@
           "name" : "EvaluateJsonPath",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 712.0,
-            "y" : 292.0
+            "x" : 600.0,
+            "y" : 280.0
           },
           "properties" : {
             "Destination" : "flowfile-attribute",
@@ -506,7 +506,7 @@
           "name" : "PutDatabaseRecord",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 624.0,
+            "x" : 600.0,
             "y" : 480.0
           },
           "properties" : {
