@@ -14,17 +14,49 @@
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
+            "groupId" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
+            "id" : "15ac7e10-e669-31fe-a46f-e70ba851b6a7",
+            "instanceIdentifier" : "f7d39c48-0192-1000-5a90-c06c6c745199",
+            "name" : "To Profiles Storage",
+            "type" : "OUTPUT_PORT"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
+          "identifier" : "f650636f-65b0-35da-b4b8-e316fdee71c0",
+          "instanceIdentifier" : "f7d3dfe6-0192-1000-feeb-ec6642e65807",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "failure", "success" ],
+          "source" : {
             "comments" : "",
-            "groupId" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+            "groupId" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
             "id" : "60fe653f-7fb7-3675-a81f-d630ef0e2db0",
-            "instanceIdentifier" : "69a6619d-fefa-34bb-5f62-4edb2e98bf1e",
+            "instanceIdentifier" : "2440d37a-64a5-39f3-3adc-6018ca458ab7",
+            "name" : "JoltTransformJSON",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
+            "id" : "60fe653f-7fb7-3675-a81f-d630ef0e2db0",
+            "instanceIdentifier" : "2440d37a-64a5-39f3-3adc-6018ca458ab7",
             "name" : "JoltTransformJSON",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
           "identifier" : "596fbb64-f606-3923-8d82-c89e0d49097c",
-          "instanceIdentifier" : "0ececf24-eed7-3d49-310e-685c4e55ba7d",
+          "instanceIdentifier" : "f529adb9-05e7-3e95-7b39-620619708ae9",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -34,9 +66,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+            "groupId" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
             "id" : "97e8e26e-9e92-336c-aa00-0c7262140f78",
-            "instanceIdentifier" : "68d51528-5352-3a7a-235f-515fc0d17c77",
+            "instanceIdentifier" : "b7891aaf-658c-3b0d-9ab6-062c3d264d57",
             "name" : "UpdateRecord",
             "type" : "PROCESSOR"
           },
@@ -48,16 +80,16 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+            "groupId" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
             "id" : "97e8e26e-9e92-336c-aa00-0c7262140f78",
-            "instanceIdentifier" : "68d51528-5352-3a7a-235f-515fc0d17c77",
+            "instanceIdentifier" : "b7891aaf-658c-3b0d-9ab6-062c3d264d57",
             "name" : "UpdateRecord",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
           "identifier" : "0bab2934-8f8f-33db-8949-fc5fd92981eb",
-          "instanceIdentifier" : "1b13bf29-a1d1-3312-676f-dc7f99c17a75",
+          "instanceIdentifier" : "f98db17e-670a-3053-3132-a3008e28825a",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -67,9 +99,9 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+            "groupId" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
             "id" : "afbe924d-1f1f-35f4-a29c-f3306b4870e7",
-            "instanceIdentifier" : "ab060624-055d-3c72-a36a-ed1626ea77d1",
+            "instanceIdentifier" : "e6fa6a4f-c147-36ba-83bc-376afeddcca2",
             "name" : "GetFile",
             "type" : "PROCESSOR"
           },
@@ -92,9 +124,9 @@
             },
             "type" : "org.apache.nifi.serialization.RecordSetWriterFactory"
           } ],
-          "groupIdentifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
           "identifier" : "bcac1232-93b7-3997-b686-353474da40e6",
-          "instanceIdentifier" : "e8d99900-0192-1000-6bfb-7cc9ecaadc8c",
+          "instanceIdentifier" : "296184ea-7a18-3b90-a960-d43c5655ea0a",
           "name" : "JsonRecordSetWriter",
           "properties" : {
             "Allow Scientific Notation" : "false",
@@ -238,9 +270,9 @@
             },
             "type" : "org.apache.nifi.serialization.RecordReaderFactory"
           } ],
-          "groupIdentifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
           "identifier" : "bb518d3f-543d-3e82-9948-30f58ccdff52",
-          "instanceIdentifier" : "e8d97b3f-0192-1000-3f75-476bd15549b4",
+          "instanceIdentifier" : "5750ba8c-8b8f-3e2f-55be-2243aac86311",
           "name" : "JsonTreeReader",
           "properties" : {
             "Max String Length" : "20 MB",
@@ -352,15 +384,29 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+        "identifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
         "inputPorts" : [ ],
-        "instanceIdentifier" : "9dd8704f-daa8-39a3-16aa-3dbd0c966485",
+        "instanceIdentifier" : "f7d3043d-0192-1000-7b63-2ca7e10e39d7",
         "labels" : [ ],
         "name" : "LinkedIn profiles processing",
-        "outputPorts" : [ ],
+        "outputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
+          "identifier" : "15ac7e10-e669-31fe-a46f-e70ba851b6a7",
+          "instanceIdentifier" : "f7d39c48-0192-1000-5a90-c06c6c745199",
+          "name" : "To Profiles Storage",
+          "position" : {
+            "x" : 840.0,
+            "y" : 720.0
+          },
+          "scheduledState" : "ENABLED",
+          "type" : "OUTPUT_PORT"
+        } ],
         "position" : {
-          "x" : 456.0,
-          "y" : 104.0
+          "x" : 504.0,
+          "y" : 64.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -376,9 +422,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
           "identifier" : "97e8e26e-9e92-336c-aa00-0c7262140f78",
-          "instanceIdentifier" : "68d51528-5352-3a7a-235f-515fc0d17c77",
+          "instanceIdentifier" : "b7891aaf-658c-3b0d-9ab6-062c3d264d57",
           "maxBackoffPeriod" : "10 mins",
           "name" : "UpdateRecord",
           "penaltyDuration" : "30 sec",
@@ -428,7 +474,7 @@
           "type" : "org.apache.nifi.processors.standard.UpdateRecord",
           "yieldDuration" : "1 sec"
         }, {
-          "autoTerminatedRelationships" : [ "success", "failure" ],
+          "autoTerminatedRelationships" : [ ],
           "backoffMechanism" : "PENALIZE_FLOWFILE",
           "bulletinLevel" : "WARN",
           "bundle" : {
@@ -440,9 +486,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
           "identifier" : "60fe653f-7fb7-3675-a81f-d630ef0e2db0",
-          "instanceIdentifier" : "69a6619d-fefa-34bb-5f62-4edb2e98bf1e",
+          "instanceIdentifier" : "2440d37a-64a5-39f3-3adc-6018ca458ab7",
           "maxBackoffPeriod" : "10 mins",
           "name" : "JoltTransformJSON",
           "penaltyDuration" : "30 sec",
@@ -464,7 +510,7 @@
               "name" : "jolt-spec",
               "resourceDefinition" : {
                 "cardinality" : "SINGLE",
-                "resourceTypes" : [ "TEXT", "FILE" ]
+                "resourceTypes" : [ "FILE", "TEXT" ]
               },
               "sensitive" : false
             },
@@ -531,9 +577,9 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "f80e5c83-0ae1-34f7-8e29-1a3a70dc4620",
+          "groupIdentifier" : "0c659285-d7fc-36fc-a40a-aad9476603f4",
           "identifier" : "afbe924d-1f1f-35f4-a29c-f3306b4870e7",
-          "instanceIdentifier" : "ab060624-055d-3c72-a36a-ed1626ea77d1",
+          "instanceIdentifier" : "e6fa6a4f-c147-36ba-83bc-376afeddcca2",
           "maxBackoffPeriod" : "10 mins",
           "name" : "GetFile",
           "penaltyDuration" : "30 sec",
